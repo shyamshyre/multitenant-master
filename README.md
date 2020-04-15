@@ -28,10 +28,10 @@ java -jar multitenant-XXX.jar
 
 Once started you can go and request the data using different tenants :
 
-* `curl -X POST   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: test1' -d '{"name":"Mumbai"}'`
+* `curl -X POST   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: tenant1' -d '{"name":"Mumbai"}'`
 
-* `curl -X POST   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: test2' -d '{"name":"Kolkata"}'`
+* `curl -X POST   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: tenant2' -d '{"name":"Kolkata"}'`
 
-*  `curl -X GET   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: test1'`
+*  `curl -X GET   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: tenant1'`
 
-* `curl -X GET   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: test2' `
+* `curl -X GET   http://localhost:8080/ -H 'Content-Type: application/json' -H 'X-TenantID: tenant2' `
