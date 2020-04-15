@@ -13,9 +13,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.List;
 
-/**
- * Created by suman.das on 7/23/19.
- */
+
 @Configuration
 public class PathMatchingConfigurationAdapter implements WebMvcConfigurer {
 

@@ -7,9 +7,9 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Created by suman.das on 7/23/19.
- */
+
+
+
 @Component
 public class RequestInterceptor extends HandlerInterceptorAdapter {
     @Override

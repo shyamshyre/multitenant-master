@@ -7,9 +7,7 @@ import org.springframework.http.client.ClientHttpResponse;
 
 import java.io.IOException;
 
-/**
- * Created by suman.das on 7/22/19.
- */
+
 public class RestTemplateHeaderModifierInterceptor implements ClientHttpRequestInterceptor {
 
     public RestTemplateHeaderModifierInterceptor() {
