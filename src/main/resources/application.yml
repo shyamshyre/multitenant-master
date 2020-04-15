@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: MultiTenant
+  datasource:
+    url: 'jdbc:mysql://localhost:3306/test?ApplicationName=MultiTenant'
+    username: 'root'
+    password: 'mysql123'
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: none

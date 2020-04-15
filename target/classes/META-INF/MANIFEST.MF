@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: shyam
+Build-Jdk: 13.0.2
+Implementation-Title: multitenant
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.example
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/multitenant/
+Created-By: Maven Integration for Eclipse
+
